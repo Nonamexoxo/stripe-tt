@@ -1,5 +1,5 @@
 const express = require('express');
-const stripe = require('stripe')('sk_test_51J0jhXKJ2l69kcLh0fHtjVuvAzK8wHsl3HLuDEsosbFO72dfHUqGxKDYLuEUmRhgrvH3TffRGd18zs4XGQDV194p00zb0nDbuz');
+const stripe = require('stripe')('STRIPE SECRET KEY');
 
 const app = express();
 app.use(express.static('public'));

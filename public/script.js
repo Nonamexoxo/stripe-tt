@@ -1,4 +1,4 @@
-const stripe = Stripe('pk_test_51J0jhXKJ2l69kcLh274tTYie2oMniCKhfC6YcDJFzUx6AeaqVcjjn6JKmLFGZmS3M3UnsMaD8FupjCHY2BrfVIbc00vvLWT7Jf');
+const stripe = Stripe('STRIPE PUBLISHABLE KEY');
 const elements = stripe.elements();
 
 const cardElement = elements.create('card');
